@@ -38,7 +38,7 @@ const WEEKLY_PLAN: DayPlan[] = [
         kcal: 780
       },
       snack: {
-        description: "18:00 HS (En el trabajo): 1 Banana + 2 Tostadas Pan Integral con 2 cdas Mantequilla de Maní + 200ml Leche.",
+        description: "18:00 HS: 1 Banana + 2 Tostadas Pan Integral con 2 cdas Mantequilla de Maní + 200ml Leche.",
         kcal: 550
       },
       dinner: {
