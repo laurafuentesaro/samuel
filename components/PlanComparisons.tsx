@@ -30,7 +30,7 @@ const WEEKLY_PLAN: DayPlan[] = [
     macros: { protein: 115, carbs: 420, fat: 70 },
     meals: {
       breakfast: {
-        description: "06:20 AM - Bowl Frío Reforzado: 250g Yogurt Natural + 1 Banana + 60g Avena + 30g Nueces + 1 cda Miel.",
+        description: "06:20 AM - Bowl Frío: 250g Yogurt Natural + 1 Banana + 60g Avena + 30g Nueces + 1 cda Miel.",
         kcal: 650
       },
       lunch: {
