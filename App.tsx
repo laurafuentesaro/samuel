@@ -1,26 +1,6 @@
 import React from 'react';
-import { PatientDashboard } from './components/PatientDashboard';
-import { PatientData } from './types';
+import { PlanComparisons } from './components/PlanComparisons';
 import { Activity } from 'lucide-react';
-
-// Updated with real data from screenshots
-const patientData: PatientData = {
-  name: "Paciente Corredor (Datos Reales)",
-  gender: 'male',
-  age: 32,
-  height: 160,
-  weight: 63,
-  targetWeight: 59,
-  activityLevel: 'athlete',
-  telemetry: {
-    avgDailySteps: 20921, // From "Media diaria" screenshot
-    avgDailyCalories: 2654, // From "Media total" screenshot
-    avgRestingCalories: 1690, // From "Promedio en reposo"
-    avgActiveCalories: 963, // From "Media activ"
-    weeklyRunDistance: 85, // From "Media semanal"
-    monthlyRunVolume: 368 // From "Media mensual" approx
-  }
-};
 
 const App: React.FC = () => {
   return (
@@ -34,14 +14,7 @@ const App: React.FC = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-white tracking-tight">SportsNutriPro</h1>
-              <p className="text-xs text-slate-400">Análisis con Datos Reales (Garmin/Connect)</p>
-            </div>
-          </div>
-
-          <div className="hidden md:flex items-center space-x-6 text-sm">
-            <div className="flex flex-col items-end">
-              <span className="text-slate-300 font-medium">{patientData.name}</span>
-              <span className="text-slate-500 text-xs">Obj: {patientData.targetWeight}kg | Actual: {patientData.weight}kg</span>
+              <p className="text-xs text-slate-400">Plan Nutricional Personalizado</p>
             </div>
           </div>
         </div>
@@ -49,7 +22,12 @@ const App: React.FC = () => {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <PatientDashboard patient={patientData} />
+        <div className="space-y-6">
+          <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-6">
+            <h2 className="text-xl font-bold text-white mb-2">Estrategia Nutricional</h2>
+            <PlanComparisons />
+          </div>
+        </div>
       </main>
     </div>
   );
