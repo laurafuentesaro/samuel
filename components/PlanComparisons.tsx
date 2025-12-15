@@ -210,7 +210,7 @@ export const PlanComparisons: React.FC = () => {
       <div className="bg-slate-800 rounded-xl p-6 border border-slate-700">
         <h3 className="text-xl font-bold text-white mb-4 flex items-center">
           <Clock className="mr-2 text-emerald-400" />
-          Plan Sincronizado: Horarios & Rendimiento
+          Horarios & Rendimiento
         </h3>
         <p className="text-slate-300 text-sm mb-4 leading-relaxed">
           • <strong>Lunes y Jueves (Días Largos hasta 20hs):</strong> Merienda fuerte en el trabajo para no llegar "vacío" al final del día.
