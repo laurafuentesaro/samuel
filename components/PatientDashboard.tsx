@@ -49,12 +49,6 @@ export const PatientDashboard: React.FC<PatientDashboardProps> = ({ patient }) =
             subtitle="Promedio semanal"
             icon={<Dumbbell size={20} />}
           />
-          <InfoCard 
-            title="Calorías Activas" 
-            value={patient.telemetry?.avgActiveCalories || "0"} 
-            subtitle="Ejercicio + Trabajo Físico"
-            icon={<Activity size={20} />}
-          />
         </div>
       </div>
 
