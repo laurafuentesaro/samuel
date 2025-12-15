@@ -159,7 +159,7 @@ const WEEKLY_PLAN: DayPlan[] = [
         kcal: 700
       },
       lunch: {
-        description: "POST-LARGO (12:00): Poke Bowl 'Full Carb': 300g Arroz Blanco + 150g Pollo + 2 Huevos + Remolacha + 1 cda Aceite. + Jugo natural.",
+        description: "POST-LARGO (12:00): Poke Bowl 'Full Carb': 300g Arroz Blanco + 150g Pollo + 2 Huevos + Remolacha + 1 cda Aceite. + Jugo natural (preferir remolacha).",
         kcal: 950
       },
       snack: {
