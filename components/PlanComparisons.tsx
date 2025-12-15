@@ -213,8 +213,6 @@ export const PlanComparisons: React.FC = () => {
           Plan Sincronizado: Horarios & Rendimiento
         </h3>
         <p className="text-slate-300 text-sm mb-4 leading-relaxed">
-          <strong>Ajuste Logístico:</strong> Hemos vuelto al plan energético (con carbos en desayuno) que le gustó, pero adaptado a sus horarios reales.
-          <br/>
           • <strong>Lunes y Jueves (Días Largos hasta 20hs):</strong> Merienda fuerte en el trabajo para no llegar "vacío" al final del día.
           <br/>
           • <strong>Martes y Jueves (Series 21km/h):</strong> Cena post-entreno con carga de carbohidratos para bajar cortisol y permitir la quema de grasa.
