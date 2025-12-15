@@ -192,7 +192,7 @@ const WEEKLY_PLAN: DayPlan[] = [
         kcal: 400
       },
       dinner: {
-        description: "Cena Completa: Sopa de verduras + 2 Tostadas con queso + Ensalada Caprese + 1 fruta de postre.",
+        description: "Cena Completa: Sopa de verduras fría + 2 Tostadas con queso + Ensalada Caprese + 1 fruta de postre.",
         kcal: 650
       }
     }
