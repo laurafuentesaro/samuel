@@ -390,15 +390,6 @@ export const PlanComparisons: React.FC = () => {
         </div>
       </div>
       
-      <div className="bg-blue-900/20 border border-blue-500/30 p-4 rounded-lg flex items-start gap-3">
-        <ShieldCheck className="text-blue-400 shrink-0 mt-1" />
-        <div>
-          <h4 className="text-blue-200 font-bold text-sm">Resumen de Ajustes</h4>
-          <p className="text-blue-100/80 text-xs mt-1 leading-relaxed">
-             Se mantienen los alimentos que gustaron (Pan integral, frutas, licuados, carne al horno el domingo) pero organizados estrictamente en sus ventanas horarias de trabajo y entrenamiento.
-          </p>
-        </div>
-      </div>
 
     </div>
   );
