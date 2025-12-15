@@ -89,10 +89,7 @@ const App: React.FC = () => {
             <div className="space-y-6">
               <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-6">
                 <h2 className="text-xl font-bold text-white mb-2">Evaluación de la Estrategia</h2>
-                <p className="text-slate-400 mb-6">
-                  Comparativa basada en los nuevos datos de volumen semanal (85km) y actividad diaria (21k pasos).
-                </p>
-                <PlanComparisons />
+                                <PlanComparisons />
               </div>
             </div>
           )}
