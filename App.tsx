@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { PatientDashboard } from './components/PatientDashboard';
 import { PlanComparisons } from './components/PlanComparisons';
-import { GeminiAdvisor } from './components/GeminiAdvisor';
 import { PatientData } from './types';
-import { Activity, FileText, MessageSquare, LayoutDashboard } from 'lucide-react';
+import { Activity, FileText, LayoutDashboard } from 'lucide-react';
 
 // Updated with real data from screenshots
 const patientData: PatientData = {
@@ -25,7 +24,7 @@ const patientData: PatientData = {
 };
 
 const App: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'plan' | 'chat'>('dashboard');
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'plan'>('dashboard');
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 selection:bg-emerald-500/30">
@@ -78,17 +77,6 @@ const App: React.FC = () => {
             <FileText size={18} className="mr-2" />
             Estrategia
           </button>
-          <button
-            onClick={() => setActiveTab('chat')}
-            className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-              activeTab === 'chat' 
-                ? 'bg-slate-800 text-white shadow-sm' 
-                : 'text-slate-400 hover:text-white hover:bg-slate-800/50'
-            }`}
-          >
-            <MessageSquare size={18} className="mr-2" />
-            Consultar IA
-          </button>
         </div>
 
         {/* Tab Content */}
@@ -109,27 +97,6 @@ const App: React.FC = () => {
             </div>
           )}
 
-          {activeTab === 'chat' && (
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              <div className="lg:col-span-1 space-y-4">
-                <div className="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                  <h3 className="font-semibold text-white mb-2">Datos Críticos (Dispositivos)</h3>
-                  <ul className="list-disc list-inside text-sm text-slate-300 space-y-2">
-                    <li><strong>Pasos:</strong> 20,921/día (Volumen Extremo).</li>
-                    <li><strong>Gasto Total:</strong> ~2,654 kcal (Media).</li>
-                    <li><strong>Variabilidad:</strong> Días de 1700 kcal vs días de 2800 kcal.</li>
-                    <li><strong>Carrera:</strong> 85km/semana constantes.</li>
-                  </ul>
-                  <div className="mt-4 p-3 bg-red-500/10 border border-red-500/20 rounded text-xs text-red-200">
-                    Alerta: La fatiga es casi segura con un consumo bajo en carbohidratos dado este volumen de pasos + carrera.
-                  </div>
-                </div>
-              </div>
-              <div className="lg:col-span-2">
-                <GeminiAdvisor />
-              </div>
-            </div>
-          )}
         </div>
       </main>
     </div>
