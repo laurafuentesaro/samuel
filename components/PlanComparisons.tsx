@@ -30,7 +30,7 @@ const WEEKLY_PLAN: DayPlan[] = [
     macros: { protein: 115, carbs: 420, fat: 70 },
     meals: {
       breakfast: {
-        description: "06:20 AM - Bowl Frío: 250g Yogurt Natural + 1 Banana + 60g Avena + 30g Nueces + 1 cda Miel.",
+        description: "06:20 AM - Bowl Frío: 250g Yogurt Natural + 1 Banana + 60g avena hidratada + 30g Nueces + 1 cda Miel.",
         kcal: 650
       },
       lunch: {
@@ -55,7 +55,7 @@ const WEEKLY_PLAN: DayPlan[] = [
     macros: { protein: 120, carbs: 500, fat: 65 },
     meals: {
       breakfast: {
-        description: "07:20 AM - Licuado CARGADO: 2 Bananas + 300ml Leche + 60g Avena + 1 cda Miel. + 2 Tostadas Pan Integral con Mermelada.",
+        description: "07:20 AM - Licuado CARGADO: 2 Bananas + 300ml Leche + 60g avena hidratada + 1 cda Miel. + 2 Tostadas Pan Integral con Mermelada.",
         kcal: 750
       },
       lunch: {
