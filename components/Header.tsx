@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
           <span className="text-theme-secondary text-sm">
             Plan Nutricional
           </span>
-          <span className="text-theme-muted text-xs">
+          <span className="ml-2 px-2 py-0.5 text-[10px] font-medium bg-theme-accent/20 text-theme-accent rounded-full border border-theme-accent/30">
             {APP_VERSION}
           </span>
         </div>
