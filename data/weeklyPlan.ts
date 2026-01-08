@@ -19,8 +19,8 @@ export type DayPlan = {
 export const WEEKLY_PLAN: DayPlan[] = [
   {
     day: "Lunes",
-    training: "Fondo Suave (12-20km)",
-    focus: "Energia Sostenida (Dia Largo hasta 20hs)",
+    training: "CALIDAD: 10x1000m a 21km/h",
+    focus: "Carga de Glucogeno & Cafeina",
     targetCalories: 2950,
     macros: { protein: 115, carbs: 420, fat: 70 },
     meals: {
@@ -29,11 +29,11 @@ export const WEEKLY_PLAN: DayPlan[] = [
         kcal: 650
       },
       lunch: {
-        description: "11:30 - 14:30 (Vianda): Poke Bowl 'Mediterraneo': 200g Quinoa cocida + 1 lata Atun (170g) + 2 Huevos duros + Tomate + Aceitunas + 1 cda Aceite Oliva.",
+        description: "11:30 - 14:30 (Vianda): Bowl 'Mediterraneo': 200g Quinoa cocida + 1 lata Atun (170g) + 2 Huevos duros + Tomate + Aceitunas + 1 cda Aceite Oliva.",
         kcal: 780
       },
       snack: {
-        description: "18:00 HS: 1 Banana + 2 Tostadas Pan Integral con 2 cdas Mantequilla de Mani + 200ml Leche.",
+        description: "18:00 HS: 1 Banana + 2 Tostadas Pan Integral con 2 cdas Mantequilla de Mani + 200ml Yogurt.",
         kcal: 550
       },
       dinner: {
@@ -44,17 +44,17 @@ export const WEEKLY_PLAN: DayPlan[] = [
   },
   {
     day: "Martes",
-    training: "CALIDAD: 10x1000m a 21km/h",
-    focus: "Carga de Glucogeno & Cafeina",
+    training: "Rodaje Suave (10-12km)",
+    focus: "Mantenimiento & Grasas Saludables",
     targetCalories: 3200,
     macros: { protein: 120, carbs: 500, fat: 65 },
     meals: {
       breakfast: {
-        description: "07:20 AM - Licuado CARGADO: 2 Bananas + 300ml Leche + 60g avena hidratada + 1 cda Miel. + 2 Tostadas Pan Integral con Mermelada.",
+        description: "07:20 AM - Licuado CARGADO: 2 Bananas + 300ml Yogurt + 60g avena hidratada + 1 cda Miel. + 2 Tostadas Pan Integral con Mermelada.",
         kcal: 750
       },
       lunch: {
-        description: "11:30 - 14:30 (Vianda Carga): Poke Bowl 'Energia': 250g Arroz Blanco + 150g Pollo + Mango + Zanahoria + 1 cda Salsa Soja. + 1 Banana de postre.",
+        description: "11:30 - 14:30 (Vianda Carga): Bowl 'Energia': 250g Arroz Blanco + 150g Pollo + Mango + Zanahoria + 1 cda Salsa Soja. + 1 Banana de postre.",
         kcal: 850
       },
       snack: {
@@ -62,15 +62,15 @@ export const WEEKLY_PLAN: DayPlan[] = [
         kcal: 600
       },
       dinner: {
-        description: "Post-Series (Recuperacion CRITICA): 300g Pasta/Fideos cocidos + 150g Merluza + 2 Huevos + 1 cda Aceite Oliva. (Prioridad: Rellenar glucogeno).",
+        description: "Post-Series (Recuperacion CRITICA): 300g Pasta/Fideos cocidos + 150g Pescado o Pollo o Carne + 2 Huevos + 1 cda Aceite Oliva. (Prioridad: Rellenar glucogeno).",
         kcal: 1000
       }
     }
   },
   {
     day: "Miercoles",
-    training: "Rodaje Medio (12-14km)",
-    focus: "Mantenimiento & Saciedad",
+    training: "CALIDAD: 10x1000m a 21km/h",
+    focus: "Carga de Glucogeno & Cafeina",
     targetCalories: 2700,
     macros: { protein: 115, carbs: 370, fat: 70 },
     meals: {
@@ -79,7 +79,7 @@ export const WEEKLY_PLAN: DayPlan[] = [
         kcal: 650
       },
       lunch: {
-        description: "11:30 - 14:30 (Vianda): Poke Bowl 'Vegetariano Power': 150g Lentejas + 150g Arroz + 2 Huevos duros + 30g Almendras + Vegetales.",
+        description: "11:30 - 14:30 (Vianda): Bowl 'Vegetariano Proteico': 150g Lentejas + 150g Arroz + 2 Huevos duros + 30g Almendras + Vegetales.",
         kcal: 750
       },
       snack: {
@@ -94,21 +94,21 @@ export const WEEKLY_PLAN: DayPlan[] = [
   },
   {
     day: "Jueves",
-    training: "CALIDAD: 10x1000m a 21km/h",
-    focus: "Resistencia (Dia Largo + Intensidad)",
+    training: "Rodaje Suave (10-12km)",
+    focus: "Mantenimiento & Grasas Saludables",
     targetCalories: 3200,
     macros: { protein: 120, carbs: 500, fat: 65 },
     meals: {
       breakfast: {
-        description: "07:20 AM - Overnight Oats CARGADO: 300ml Leche + 80g Avena hidratada + Chia + 2 cdas Mantequilla Mani + 1 Banana picada + Miel.",
+        description: "07:20 AM - Avena Hidratada CARGADA: 300ml Yogurt + 80g Avena hidratada + Chia + 2 cdas Mantequilla Mani + 1 Banana picada + Miel.",
         kcal: 750
       },
       lunch: {
-        description: "11:30 - 14:30 (Vianda Carga): Poke Bowl 'Criollo': 250g Arroz Yamani + 150g Carne magra (Peceto) + 150g Calabaza asada + Semillas + 1 fruta.",
+        description: "11:30 - 14:30 (Vianda Carga): Bowl 'Criollo': 250g Arroz Yamani + 150g Carne magra (Peceto) + 150g Calabaza asada + Semillas + 1 fruta.",
         kcal: 850
       },
       snack: {
-        description: "17:30 HS (Pre-Series): 3 Tostadas Pan Integral con Mermelada + Queso untable + 1 Banana + 200ml Leche chocolatada.",
+        description: "17:30 HS (Pre-Series): 3 Tostadas Pan Integral con Mermelada + Queso untable + 1 Banana + 200ml Yogurt.",
         kcal: 650
       },
       dinner: {
@@ -119,8 +119,8 @@ export const WEEKLY_PLAN: DayPlan[] = [
   },
   {
     day: "Viernes",
-    training: "Descanso Activo / Suave",
-    focus: "Nutricion Densa & Recuperacion",
+    training: "CALIDAD: 10x1000m a 21km/h",
+    focus: "Carga de Glucogeno & Cafeina",
     targetCalories: 2600,
     macros: { protein: 115, carbs: 340, fat: 75 },
     meals: {
@@ -144,8 +144,8 @@ export const WEEKLY_PLAN: DayPlan[] = [
   },
   {
     day: "Sabado",
-    training: "Fondo Largo (20km+)",
-    focus: "Combustible de Fondo",
+    training: "Tirada Larga (20-30km)",
+    focus: "Carbohidratos y Grasas Saludables",
     targetCalories: 3300,
     macros: { protein: 115, carbs: 520, fat: 70 },
     meals: {
@@ -154,11 +154,11 @@ export const WEEKLY_PLAN: DayPlan[] = [
         kcal: 700
       },
       lunch: {
-        description: "POST-LARGO (12:00): Poke Bowl 'Full Carb': 300g Arroz Blanco + 150g Pollo + 2 Huevos + Remolacha + 1 cda Aceite. + Jugo natural (preferir remolacha).",
+        description: "POST-LARGO (12:00): Bowl 'Carga Completa': 300g Arroz Blanco + 150g Pollo + 2 Huevos + Remolacha + 1 cda Aceite. + Jugo natural (preferir remolacha).",
         kcal: 950
       },
       snack: {
-        description: "16:00 - Licuado Recuperador GRANDE: 400ml Leche + 2 Bananas + 2 cdas Cacao + 1 cda Miel + 40g Avena hidratada.",
+        description: "16:00 - Licuado Recuperador GRANDE: 400ml Yogurt + 2 Bananas + 2 cdas Cacao + 1 cda Miel + 40g Avena hidratada.",
         kcal: 650
       },
       dinner: {
