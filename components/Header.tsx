@@ -1,6 +1,7 @@
 import React from 'react';
 import { Sun, Moon } from 'lucide-react';
 import { useTheme } from '../ThemeContext';
+import { APP_VERSION } from '../version';
 
 export const Header: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
@@ -15,6 +16,9 @@ export const Header: React.FC = () => {
           <span className="text-theme-muted">/</span>
           <span className="text-theme-secondary text-sm">
             Plan Nutricional
+          </span>
+          <span className="text-theme-muted text-xs">
+            {APP_VERSION}
           </span>
         </div>
         <button
