@@ -162,7 +162,7 @@ export const WEEKLY_PLAN: DayPlan[] = [
         kcal: 650
       },
       dinner: {
-        description: "Cena Libre GANADA: Pizza casera (3 porciones) o 300g Pasta con salsa y queso + Ensalada.",
+        description: "Cena Libre: Pizza casera (3 porciones) o 300g Pasta con salsa y queso + Ensalada.",
         kcal: 1000
       }
     }

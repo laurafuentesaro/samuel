@@ -1,7 +1,7 @@
 import React from 'react';
 import { Sun, Moon } from 'lucide-react';
 import { useTheme } from '../ThemeContext';
-import { APP_VERSION } from '../version';
+import { LAST_UPDATED } from '../version';
 
 export const Header: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
             Plan Nutricional
           </span>
           <span className="ml-2 px-2 py-0.5 text-[10px] font-medium bg-theme-accent/20 text-theme-accent rounded-full border border-theme-accent/30">
-            {APP_VERSION}
+            Última actualización: {LAST_UPDATED}
           </span>
         </div>
         <button
