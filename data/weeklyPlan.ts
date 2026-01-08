@@ -20,24 +20,24 @@ export const WEEKLY_PLAN: DayPlan[] = [
   {
     day: "Lunes",
     training: "CALIDAD: 10x1000m a 21km/h",
-    focus: "Carga de Glucogeno & Cafeina",
+    focus: "Carga de Glucógeno & Cafeína",
     targetCalories: 2950,
     macros: { protein: 115, carbs: 420, fat: 70 },
     meals: {
       breakfast: {
-        description: "06:20 AM - Bowl Frio: 250g Yogurt Natural + 1 Banana + 60g avena hidratada + 30g Nueces + 1 cda Miel.",
+        description: "06:20 AM - Bowl Frío: 250g Yogurt Natural + 1 Banana + 60g avena hidratada + 30g Nueces + 1 cda Miel.",
         kcal: 650
       },
       lunch: {
-        description: "11:30 - 14:30 (Vianda): Bowl 'Mediterraneo': 200g Quinoa cocida + 1 lata Atun (170g) + 2 Huevos duros + Tomate + Aceitunas + 1 cda Aceite Oliva.",
+        description: "11:30 - 14:30 (Vianda): Bowl 'Mediterráneo': 200g Quinoa cocida + 1 lata Atún (170g) + 2 Huevos duros + Tomate + Aceitunas + 1 cda Aceite Oliva.",
         kcal: 780
       },
       snack: {
-        description: "18:00 HS: 1 Banana + 2 Tostadas Pan Integral con 2 cdas Mantequilla de Mani + 200ml Yogurt.",
+        description: "18:00 HS: 1 Banana + 2 Tostadas Pan Integral con 2 cdas Mantequilla de Maní + 200ml Yogurt.",
         kcal: 550
       },
       dinner: {
-        description: "21:00 HS - 200g Pechuga de Pollo grillada + 200g Arroz integral + Ensalada completa (Rucula, Tomate, Remolacha) + 1 cda Aceite de Oliva.",
+        description: "21:00 HS - 200g Pechuga de Pollo grillada + 200g Arroz integral + Ensalada completa (Rúcula, Tomate, Remolacha) + 1 cda Aceite de Oliva.",
         kcal: 970
       }
     }
@@ -54,23 +54,23 @@ export const WEEKLY_PLAN: DayPlan[] = [
         kcal: 750
       },
       lunch: {
-        description: "11:30 - 14:30 (Vianda Carga): Bowl 'Energia': 250g Arroz Blanco + 150g Pollo + Mango + Zanahoria + 1 cda Salsa Soja. + 1 Banana de postre.",
+        description: "11:30 - 14:30 (Vianda Carga): Bowl 'Energía': 250g Arroz Blanco + 150g Pollo + Mango + Zanahoria + 1 cda Salsa Soja. + 1 Banana de postre.",
         kcal: 850
       },
       snack: {
-        description: "18:00 HS (Pre-Entreno): 2 Sandwiches Pan Integral con Queso y Dulce de Membrillo + Cafe/Matcha frio + 1 Banana.",
+        description: "18:00 HS (Pre-Entreno): 2 Sandwiches Pan Integral con Queso y Dulce de Membrillo + Café/Matcha frío + 1 Banana.",
         kcal: 600
       },
       dinner: {
-        description: "Post-Series (Recuperacion CRITICA): 300g Pasta/Fideos cocidos + 150g Pescado o Pollo o Carne + 2 Huevos + 1 cda Aceite Oliva. (Prioridad: Rellenar glucogeno).",
+        description: "Post-Series (Recuperación CRITICA): 300g Pasta/Fideos cocidos + 150g Pescado o Pollo o Carne + 2 Huevos + 1 cda Aceite Oliva. (Prioridad: Rellenar glucógeno).",
         kcal: 1000
       }
     }
   },
   {
-    day: "Miercoles",
+    day: "Miércoles",
     training: "CALIDAD: 10x1000m a 21km/h",
-    focus: "Carga de Glucogeno & Cafeina",
+    focus: "Carga de Glucógeno & Cafeína",
     targetCalories: 2700,
     macros: { protein: 115, carbs: 370, fat: 70 },
     meals: {
@@ -100,7 +100,7 @@ export const WEEKLY_PLAN: DayPlan[] = [
     macros: { protein: 120, carbs: 500, fat: 65 },
     meals: {
       breakfast: {
-        description: "07:20 AM - Avena Hidratada CARGADA: 300ml Yogurt + 80g Avena hidratada + Chia + 2 cdas Mantequilla Mani + 1 Banana picada + Miel.",
+        description: "07:20 AM - Avena Hidratada CARGADA: 300ml Yogurt + 80g Avena hidratada + Chía + 2 cdas Mantequilla Maní + 1 Banana picada + Miel.",
         kcal: 750
       },
       lunch: {
@@ -120,7 +120,7 @@ export const WEEKLY_PLAN: DayPlan[] = [
   {
     day: "Viernes",
     training: "CALIDAD: 10x1000m a 21km/h",
-    focus: "Carga de Glucogeno & Cafeina",
+    focus: "Carga de Glucógeno & Cafeína",
     targetCalories: 2600,
     macros: { protein: 115, carbs: 340, fat: 75 },
     meals: {
@@ -129,7 +129,7 @@ export const WEEKLY_PLAN: DayPlan[] = [
         kcal: 600
       },
       lunch: {
-        description: "11:30 - 14:30 (Vianda): Ensalada de 200g Pasta Integral + 1 lata Atun + 2 Huevos + 1/2 Palta + Aceitunas + Aceite Oliva.",
+        description: "11:30 - 14:30 (Vianda): Ensalada de 200g Pasta Integral + 1 lata Atún + 2 Huevos + 1/2 Palta + Aceitunas + Aceite Oliva.",
         kcal: 780
       },
       snack: {
@@ -137,20 +137,20 @@ export const WEEKLY_PLAN: DayPlan[] = [
         kcal: 500
       },
       dinner: {
-        description: "150g Salmon/Atun a la plancha + Vegetales al vapor + 200g Papas al natural + Ensalada con Aceite Oliva.",
+        description: "150g Salmón/Atún a la plancha + Vegetales al vapor + 200g Papas al natural + Ensalada con Aceite Oliva.",
         kcal: 720
       }
     }
   },
   {
-    day: "Sabado",
+    day: "Sábado",
     training: "Tirada Larga (20-30km)",
     focus: "Carbohidratos y Grasas Saludables",
     targetCalories: 3300,
     macros: { protein: 115, carbs: 520, fat: 70 },
     meals: {
       breakfast: {
-        description: "PRE-LARGO (7:00 AM): 4 Tostadas Pan Integral con Miel + 2 Bananas + te verde o cafe frio. (Carbos de facil absorcion).",
+        description: "PRE-LARGO (7:00 AM): 4 Tostadas Pan Integral con Miel + 2 Bananas + té verde o café frío. (Carbos de fácil absorción).",
         kcal: 700
       },
       lunch: {
@@ -169,25 +169,25 @@ export const WEEKLY_PLAN: DayPlan[] = [
   },
   {
     day: "Domingo",
-    training: "Descanso Total",
-    focus: "Recuperacion & Comida Casera",
+    training: "Descanso",
+    focus: "Recuperación & Comida Casera",
     targetCalories: 2500,
     macros: { protein: 110, carbs: 320, fat: 80 },
     meals: {
       breakfast: {
-        description: "Horario Libre (9-10 AM): Mate/Te + 3 Tostadas integrales con Manteca y Mermelada + 1 Fruta + Jugo.",
+        description: "Horario Libre (9-10 AM): Mate/Té + 3 Tostadas integrales con Manteca y Mermelada + 1 Fruta + Jugo.",
         kcal: 550
       },
       lunch: {
-        description: "ALMUERZO: 200g Carne al Horno (Colita/Vacio) + 250g Papas/Boniatos/Calabaza asados + Ensalada con Aceite.",
+        description: "ALMUERZO: 200g Carne al Horno (Colita/Vacío) + 250g Papas/Boniatos/Calabaza asados + Ensalada con Aceite.",
         kcal: 900
       },
       snack: {
-        description: "17:00 - 200g Yogurt con frutas frescas + 1 porcion de Helado o 2 Medialunas.",
+        description: "17:00 - 200g Yogurt con frutas frescas + 1 porción de Helado o 2 Medialunas.",
         kcal: 400
       },
       dinner: {
-        description: "Cena Completa: Sopa de verduras fria + 2 Tostadas con queso + Ensalada Caprese + 1 fruta de postre.",
+        description: "Cena Completa: Sopa de verduras fría + 2 Tostadas con queso + Ensalada Caprese + 1 fruta de postre.",
         kcal: 650
       }
     }
